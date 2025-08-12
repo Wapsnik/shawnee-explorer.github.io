@@ -13,8 +13,9 @@
     .form-container { max-width: 500px; margin: 0 auto; text-align: center; }
     .accent { color: #8B4513; }
     @media (max-width: 768px) {
-      .logo { display: none; } /* Hide desktop logo */
-      .mobile-logo { max-width: 90%; width: auto; height: auto; margin: 0 auto; display: block !important; } /* Force mobile logo display */
+      .logo { display: none; }
+      .mobile-logo { max-width: 90%; width: auto; height: auto; margin: 0 auto; display: block; }
+      .hero { height: 167px; } /* 2/3 of 250px */
     }
   </style>
 </head>
@@ -22,10 +23,9 @@
   <div class="hero">
     <img src="logo.png" alt="Shawnee Explorer Logo" class="logo">
     <img src="logo_mobile.png" alt="Shawnee Explorer Mobile Logo" class="mobile-logo" style="display: none;">
-    <p>Discover Shawnee Wine Trail with Rewards and Immersive Adventures</p>
+    <p>Discover Shawnee Wine Trail with Rewards and Immersive Adventures<br><span style="margin-top: 10px; display: block;">Coming Soon!</span></p>
   </div>
   <div class="container section">
-    <h2>Coming Soon!</h2>
     <p>Explore Southern Illinois and the Shawnee Wine Trail with:</p>
     <ul class="list-unstyled">
       <li><strong class="accent">Loyalty Program</strong>: Earn and redeem points at local wineries and eateries.</li>
