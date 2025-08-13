@@ -15,10 +15,10 @@
     @media (max-width: 768px) {
       .hero { height: 167px; padding: 0; display: flex; align-items: center; justify-content: center; }
       .logo { display: none; }
-      .mobile-logo { max-width: 90%; width: auto; height: auto; margin: 0 auto; display: block; } /* Vertically centered in banner */
-      .hero p { display: none; } /* Hide banner text on mobile */
-      .banner-text { color: #228B22; margin-top: 10px; } /* Green text under banner */
-      .coming-soon { margin-top: 10px; } /* "Coming Soon!" below */
+      .mobile-logo { max-width: 90%; width: auto; height: auto; margin: 0 auto; display: block !important; } /* Restored force display */
+      .hero p { display: none; }
+      .banner-text { color: #228B22; margin-top: 10px; text-align: center; } /* Centered green text */
+      .coming-soon { margin-top: 10px; }
     }
   </style>
 </head>
