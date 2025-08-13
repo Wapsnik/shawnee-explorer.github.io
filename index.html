@@ -13,9 +13,12 @@
     .form-container { max-width: 500px; margin: 0 auto; text-align: center; }
     .accent { color: #8B4513; }
     @media (max-width: 768px) {
-      .hero { height: 167px; padding: 10px 0; }
+      .hero { height: 167px; padding: 0; display: flex; align-items: center; justify-content: center; }
       .logo { display: none; }
-      .mobile-logo { max-width: 90%; width: auto; height: auto; margin: 10px auto 0; display: block !important; } /* Force mobile logo display */
+      .mobile-logo { max-width: 90%; width: auto; height: auto; margin: 0 auto; display: block; } /* Vertically centered in banner */
+      .hero p { display: none; } /* Hide banner text on mobile */
+      .banner-text { color: #228B22; margin-top: 10px; } /* Green text under banner */
+      .coming-soon { margin-top: 10px; } /* "Coming Soon!" below */
     }
   </style>
 </head>
@@ -23,10 +26,10 @@
   <div class="hero">
     <img src="logo.png" alt="Shawnee Explorer Logo" class="logo">
     <img src="logo_mobile.png" alt="Shawnee Explorer Mobile Logo" class="mobile-logo" style="display: none;">
-    <p>Discover Shawnee Wine Trail with Rewards and Immersive Adventures</p>
   </div>
+  <p class="banner-text">Discover Shawnee Wine Trail with Rewards and Immersive Adventures</p>
   <div class="container section">
-    <h2 style="color: #000000;">Coming Soon!</h2> <!-- Moved out, black text -->
+    <h2 class="coming-soon">Coming Soon!</h2>
     <p>Explore Southern Illinois and the Shawnee Wine Trail with:</p>
     <ul class="list-unstyled">
       <li><strong class="accent">Loyalty Program</strong>: Earn and redeem points at local wineries and eateries.</li>
