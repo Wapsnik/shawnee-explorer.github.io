@@ -1,0 +1,4 @@
+- Add dispute resolution button (Loyalty Dashboard)
+- Implement B2B collaboration button (Business Profile)
+- Add e-commerce wish list page
+- Add security prompt for login (OAuth flow)
