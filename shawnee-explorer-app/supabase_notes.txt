@@ -1,0 +1,4 @@
+- Create project at app.supabase.io for Project URL and Anon Key.
+- Auth: Use supabase.auth.signInWithPassword(email, password).
+- Real-time: Subscribe with supabase.channel('table_name').on('postgres_changes', ...).
+- Storage: Upload files with supabase.storage.from('bucket').upload('path', file).
